@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\controllers">
+      <UniqueIdentifier>{8e2becf6-a7d6-4108-b505-227b2fd50aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\models">
+      <UniqueIdentifier>{71e92585-6d35-4350-a72c-51b2625839f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\threads">
+      <UniqueIdentifier>{69aec62f-922f-4576-a666-677423d64754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\utils">
+      <UniqueIdentifier>{3d2a8dfa-3dd5-443b-b096-3e935398e67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\controllers">
+      <UniqueIdentifier>{816f53b4-6847-4ce2-a0a2-827fb747d2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\threads">
+      <UniqueIdentifier>{d3f13656-3b48-4e7c-ac78-8199374c1850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\utils">
+      <UniqueIdentifier>{39955986-907f-4e90-89bd-bd63b339c84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\helpers">
+      <UniqueIdentifier>{aeb86fa5-a454-472f-a032-cd8c12bbd3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\server">
+      <UniqueIdentifier>{593490d7-863a-4cf6-a6e4-20c1f644584b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\server">
+      <UniqueIdentifier>{4f262afe-ab08-4f53-b1c8-83e8027e605f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\handlers">
+      <UniqueIdentifier>{711d0162-1c74-435b-89a9-65adb5d26c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\handlers">
+      <UniqueIdentifier>{71c8007d-2fe0-48eb-87c1-d5ee4968d6c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Pliki źródłowe\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RepoController.cpp">
+      <Filter>Pliki źródłowe\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenContoller.cpp">
+      <Filter>Pliki źródłowe\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryWatcherThread.cpp">
+      <Filter>Pliki źródłowe\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncThread.cpp">
+      <Filter>Pliki źródłowe\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Pliki źródłowe\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Pliki źródłowe\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Pliki źródłowe\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunicationServer.cpp">
+      <Filter>Pliki źródłowe\server</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenThread.cpp">
+      <Filter>Pliki źródłowe\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="SqliteHandler.cpp">
+      <Filter>Pliki źródłowe\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="CommitController.cpp">
+      <Filter>Pliki źródłowe\controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RepoController.h">
+      <Filter>Pliki nagłówkowe\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Commit.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Pliki nagłówkowe\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Repo.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Response.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryWatcherThread.h">
+      <Filter>Pliki nagłówkowe\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncThread.h">
+      <Filter>Pliki nagłówkowe\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Pliki nagłówkowe\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Pliki nagłówkowe\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Pliki nagłówkowe\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="RepoHelper.h">
+      <Filter>Pliki nagłówkowe\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenController.h">
+      <Filter>Pliki nagłówkowe\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunicationServer.h">
+      <Filter>Pliki nagłówkowe\server</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenThread.h">
+      <Filter>Pliki nagłówkowe\threads</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHandler.h">
+      <Filter>Pliki nagłówkowe\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="SqliteHandler.h">
+      <Filter>Pliki nagłówkowe\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHelper.h">
+      <Filter>Pliki nagłówkowe\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerHelper.h">
+      <Filter>Pliki nagłówkowe\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommitHelper.h">
+      <Filter>Pliki nagłówkowe\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommitController.h">
+      <Filter>Pliki nagłówkowe\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Pliki nagłówkowe\models</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenHelper.h">
+      <Filter>Pliki nagłówkowe\helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

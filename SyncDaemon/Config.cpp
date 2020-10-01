@@ -110,10 +110,8 @@ namespace daemon {
 
 		RepoHelper repoH;
 		std::vector<Repo> repos;
-		std::wcout << "asd" << std::endl;
 		auto repo_q = this->handler.select(sql);
 		for (auto row : repo_q) {
-			std::wcout << "asd2" << std::endl;
 			Repo repo = repoH.getRepoFromJson(row);
 
 			std::ostringstream ss;
